@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videoclub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="noticias.xsd">
+    <cliente dni="6066751d" id="1234">
+        <nombre></nombre>
+        <apellido1></apellido1>
+        <apellido2></apellido2>
+        <telefono></telefono>
+    </cliente>
+    <factura>
+        <resguardo>
+            <pago></pago>
+            <importe></importe>
+        </resguardo>
+        <alquileres fecha="">
+            <pelicula idpelicula="444" valoracion="10">
+                <titulo></titulo>
+                <genero></genero>
+                <duracion></duracion>
+                <actor>
+                    <nombre></nombre>
+                    <apellidos></apellidos>
+                </actor>
+            </pelicula>
+        </alquileres>
+        <compras>
+            <dvd fecha="">
+                <extras></extras>
+            </dvd>
+            <cinta rebobinada="">
+                <formato></formato>
+            </cinta> 
+        </compras>
+    </factura>
+</videoclub>
